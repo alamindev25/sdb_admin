@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+build/
+*.tsbuildinfo
+
+# Flutter artifacts
+.dart_tool/
+.packages
+sdb_mobile_apps/build/
+sdb_mobile_apps/.dart_tool/
+sdb_mobile_apps/.flutter-plugins
+sdb_mobile_apps/.flutter-plugins-dependencies
+
+# Environment variables & secrets
+.env.*.local
+backend/.tmp/
+.tmp/
+*.pem
+*.key
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

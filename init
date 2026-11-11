@@ -1,0 +1,4 @@
+// Cleaned on 2026-11-11: this file previously contained an obfuscated
+// remote-code payload (malware) and is no longer used by any script.
+// Safe to delete entirely.
+export {};
