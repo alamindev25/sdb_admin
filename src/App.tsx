@@ -15,6 +15,7 @@ import { StaffPermissionsView } from './views/StaffPermissionsView';
 import { UsersView } from './views/UsersView';
 import { AuditView } from './views/AuditView';
 import { BannersView } from './views/BannersView';
+import { ReferralsView } from './views/ReferralsView';
 import { LoginView } from './views/LoginView';
 
 const MainLayout: React.FC = () => {
@@ -39,6 +40,8 @@ const MainLayout: React.FC = () => {
         return <DashboardView onNavigate={(tab) => setCurrentTab(tab)} />;
       case 'banners':
         return <BannersView />;
+      case 'referrals':
+        return <ReferralsView />;
       case 'withdrawals':
         return <WithdrawalsView />;
       case 'recharge':

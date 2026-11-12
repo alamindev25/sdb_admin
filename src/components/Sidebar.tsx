@@ -16,6 +16,7 @@ import {
   Handshake,
   ShoppingCart,
   Image as ImageIcon,
+  Network,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -32,6 +33,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentTab, setCurrentTab }) =
     { id: 'withdrawals', label: 'Withdrawals (উইথড্রয়াল)', icon: DollarSign },
     { id: 'banners', label: 'Banners & Slider', icon: ImageIcon },
     { id: 'users', label: 'Users', icon: Users },
+    { id: 'referrals', label: 'Referral Team (রেফারেল)', icon: Network },
     { id: 'vendorship', label: 'Vendorship', icon: Handshake },
     { id: 'reselling', label: 'Reselling Shop', icon: ShoppingCart },
     { id: 'microjobs', label: 'Micro Jobs (Tasks)', icon: Sparkles },
